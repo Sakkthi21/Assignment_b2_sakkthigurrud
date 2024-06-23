@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Recycler</string>
+    <string name="default_text">Default Text</string>
+    <string name="image_description">Image Description</string>
+</resources>
