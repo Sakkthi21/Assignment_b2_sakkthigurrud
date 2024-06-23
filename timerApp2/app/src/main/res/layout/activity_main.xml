@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_milk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Milk (5 min)"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/btn_water_motor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Water Motor (20 min)"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn_milk"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btn_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toast (7 min)"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn_water_motor"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btn_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pass"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn_toast"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btn_resume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resume"
+        android:layout_toEndOf="@id/btn_pass"
+        android:layout_marginStart="20dp"
+        android:layout_alignTop="@id/btn_pass"/>
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:layout_below="@id/btn_pass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>
